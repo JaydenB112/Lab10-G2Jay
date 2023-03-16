@@ -1,7 +1,19 @@
+.sitemap{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 .logo-Bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.logo-n-title{
+    margin-left: 10px;
 }
 
 .logo-n-title h3 {
@@ -16,7 +28,47 @@
 .left {
     display: flex;
 }
-/* other-Links {
+
+.bar{
+    background-color: gray;
+    height: 20px;
+}
+
+.firstheader{
     display: flex;
-    justify-content: space-between;
-}. */
+    flex-direction: column;
+    margin-bottom: 0px;
+
+}
+
+.pizzaimg{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.print{
+    display: flex;
+    justify-content: right;
+}
+
+.printer{
+    width: 15px;
+}
+
+
+.bodytxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.notepad{
+    display: flex;
+    justify-content: center;
+}
+
