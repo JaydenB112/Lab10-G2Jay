@@ -63,12 +63,66 @@
     justify-content: center;
     width: 65%;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 220px;
     margin-right: 200px;
 }
 
-.notepad{
+/* .notepad{
+    
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+} */
+
+.notepad{
+    background-image: url("Assets/list-bg.png");
+    display:flex;
+    text-align: left;
+    justify-content: space-between;
+    font-family: comic sans-serif;
+    padding: 25px;
 }
 
+.recipe{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.recipe2{
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.profile-Picture{
+    display:flex;
+    justify-content:left;
+    margin-left: 350px;
+}
+
+.bar2{
+    background-color: gray;
+    height: 20px;
+}
+
+.profile-description{
+    flex-direction: column;
+}
+
+.share{
+    display: flex;
+    justify-content: right;
+    background-color: #CC5500;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align:center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style-type: "\2610";
+}
+h3{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size:26px;
+}
